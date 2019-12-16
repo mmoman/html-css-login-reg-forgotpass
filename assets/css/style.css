@@ -1,0 +1,43 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    background: url("../images/bg.jpg");
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.login-section{
+    width: 450px;
+    margin: 10% auto;
+}
+.login-btn{}
+.login-form{
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.form-control{
+    width: 100%;
+    padding: 10px;
+    margin: 5px auto;
+    box-sizing: border-box;
+}
+.login-form a{
+    text-decoration: none;
+    color: #0077cc;
+}
+.btn{
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.btn-submit{
+    background-color: #0095ff;
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+}

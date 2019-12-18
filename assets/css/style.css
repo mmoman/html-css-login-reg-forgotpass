@@ -9,7 +9,7 @@
 }
 
 /*************************************************************************************
-*************************************Login Section************************************
+*************************************Login Page************************************
 **************************************************************************************/
 .login-main{
     background: url("../images/bg.jpg");
@@ -153,19 +153,31 @@
     font-size: 1em;
 }
 
+/*************************************************************************************
+*************************************Reset Page************************************
+**************************************************************************************/
+.reset-main{
+    background-image: url("../images/reset-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .reset-section{
     width: 450px!important;
     display: block;
     margin: 5% auto;
-    background-color: #e8eaf1;
+    background-color: #ffffff00;
     padding: 10px;
-    border-radius: 5px;
 }
 .reset-section fieldset{
     padding: 10px;
     font-family: monospace;
     border-width: 1px;
     border-style: dashed;
+    color: #ffffff;
+    border-radius: 3px;
+}
+.reset-section input{
+    margin: 20px 6px 30px;
 }
 .reset-section .form-control{
     width: 85%;
@@ -177,10 +189,23 @@
     background-color: #047b9ff2;
     color: #fff;
     padding: 11px;
-    margin-left: -5px!important;
+    margin-left: 0px!important;
     border: none;
     border-radius: 5px;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
-    margin-left: 0px!important;
+}
+
+.back-link-1{
+    float: left;
+}
+.back-link-2{
+    float: right;
+}
+.back-link-1 a, .back-link-2 a{
+    text-decoration: none;
+}
+.back-link-1 a:hover, .back-link-2 a:hover{
+    color: #8E0007;
+    font-weight: bold;
 }

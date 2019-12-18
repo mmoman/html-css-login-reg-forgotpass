@@ -5,14 +5,20 @@
     <title>Reset Password</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body class="reset-main">
     <div class="container">
         <div class="reset-section">
             <form>
                 <fieldset>
                     <legend>Reset Password</legend>
-                    <input type="email" class="form-control" placeholder="Email Address" required>
-                    <input type="submit" class="btn-reset" value="Reset">
+                    <label for="reset-email">
+                        <em>"Enter your user account's verified email address and we will send you a password reset link."</em>
+                    </label>
+                    <input type="email" class="form-control" id="reset-email" placeholder="Email Address" autofocus="autofocus" required>
+                    <input type="submit" class="btn-reset" value="Send">
+
+                    <span class="back-link-1">Back To <a href="index.html">Sign in</a></span>
+                    <span class="back-link-2">Create an account? <a href="signup.html">Sign Up</a></span>
                 </fieldset>
             </form>
         </div>

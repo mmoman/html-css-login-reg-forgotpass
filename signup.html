@@ -1,10 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Sign Up</title>
+    <meta charset="utf-8">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="assets/css/style.css" >
 </head>
-<body>
+<body class="signup-main">
+<div class="container">
+    <div class="signup-section">
+        <div class="login-signup-btn">
+            <div class="login-signup-google">
+                <button type="button" class="btn btn-google">
+                    <span class="icon-google"></span>
+                    <span class="icon-text">Sign Up with Google</span>
+                </button>
+            </div>
+            <div class="login-signup-fb">
+                <button type="button" class="btn btn-fb" data-provider="google" datasrc="">
+                    <span class="icon-fb"></span>
+                    <span class="icon-text">Sign Up with Facebook</span>
+                </button>
+            </div>
+        </div>
+        <div class="signup-form">
+            <form action="#" method="post">
+                <label for="fullNname">Full Name</label>
+                <input type="text" class="form-control" id="fullNname" placeholder="Full name" minlength="4" autofocus required>
+
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email Adress" minlength="6" required>
+
+                <label for="userID">User ID</label>
+                <input type="text" class="form-control" id="userID" placeholder="User id" minlength="4" required>
+
+                <label for="passWord">Password</label>
+                <input type="password" class="form-control" id="passWord"  minlength="6" required>
+
+                <label for="rePassWord">Retype Password</label>
+                <input type="password" class="form-control" id="rePassWord"  minlength="6" required>
+
+                <input type="checkbox"  id="termsPolicy" checked>
+                <label for="termsPolicy" class="terms-policy">Agree with <a href="#">terms of service</a> and <a href="#">privacy policy</a></label>
+
+                <input type="submit" class="btn btn-submit" value="Join Now">
+            </form>
+            <span class="back-link-1">Have an account? <a href="index.html">Sign in</a></span>
+            <span class="back-link-2">Forgot Pass? <a href="resetpass.html">Reset Pass</a></span>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>

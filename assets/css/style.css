@@ -47,7 +47,7 @@
 .logo-text a:hover{
     font-family: sans-serif;
 }
-.login-btn{
+.login-signup-btn{
     margin: 10px;
     border-radius: 5px;
 }
@@ -152,7 +152,23 @@
     color: #cc0c30;
     font-size: 1em;
 }
-
+/*************************************************************************************
+*************************************Sign Up Page************************************
+**************************************************************************************/
+.signup-main{
+    background-image: url("../images/signup-bg.jpeg");
+}
+.signup-section{
+    width: 30%;
+    float: right;
+    margin-top: 5%;
+    border: 1px solid #0d010129;
+    border-radius: 3px;
+}
+.signup-form{
+    margin: 10px;
+    border-radius: 5px;
+}
 /*************************************************************************************
 *************************************Reset Page************************************
 **************************************************************************************/
@@ -198,12 +214,15 @@
 
 .back-link-1{
     float: left;
+    font-size: .9em;
 }
 .back-link-2{
     float: right;
+    font-size: .9em;
 }
 .back-link-1 a, .back-link-2 a{
     text-decoration: none;
+
 }
 .back-link-1 a:hover, .back-link-2 a:hover{
     color: #8E0007;

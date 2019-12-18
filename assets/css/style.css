@@ -56,6 +56,7 @@
 }
 .btn-google:hover{
     background-color: #99060675;
+    cursor: pointer;
 }
 .icon-google{
     background: url('../images/google-icon.png');
@@ -69,6 +70,7 @@
 }
 .btn-fb:hover{
     background-color: #385499ba;
+    cursor: pointer;
 }
 .icon-fb{
     background: url('../images/fb-icon.png');
@@ -133,6 +135,7 @@
     color: #cc0c30;
     cursor: pointer;
 }
+
 .sign-up-link{
     border: 1px solid #22222240;
     padding: 10px;
@@ -148,4 +151,36 @@
 .sign-up-link a:hover{
     color: #cc0c30;
     font-size: 1em;
+}
+
+.reset-section{
+    width: 450px!important;
+    display: block;
+    margin: 5% auto;
+    background-color: #e8eaf1;
+    padding: 10px;
+    border-radius: 5px;
+}
+.reset-section fieldset{
+    padding: 10px;
+    font-family: monospace;
+    border-width: 1px;
+    border-style: dashed;
+}
+.reset-section .form-control{
+    width: 85%;
+    margin-right: -10px!important;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px
+}
+.btn-reset{
+    background-color: #047b9ff2;
+    color: #fff;
+    padding: 11px;
+    margin-left: -5px!important;
+    border: none;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    margin-left: 0px!important;
 }
